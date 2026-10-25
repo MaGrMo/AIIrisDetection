@@ -1,0 +1,22 @@
+.venv/
+.venv-old/
+__pycache__/
+*.pyc
+.DS_Store
+
+# runtime files on the Pi
+*.log
+*.pid
+
+# pretrained weights (Ultralytics downloads them automatically)
+yolo11s.pt
+models/weights/
+
+# training checkpoints: the final model is models/best.pt
+training/runs/*/weights/
+
+# failed/duplicate runs copied from the training machine
+models/runs/
+
+# dataset (not in the repo)
+training/content/

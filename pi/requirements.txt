@@ -1,0 +1,7 @@
+# Versions tested on Raspberry Pi 5 (Poky scarthgap, Python 3.12)
+ultralytics==8.4.188
+ncnn==1.0.20261020
+torch==2.6.0
+torchvision==0.21.0
+numpy==2.5.4
+opencv-python==5.0.0.93
